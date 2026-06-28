@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "dataset": "D1",
+    "model": "unigram",
+    "users": 9,
+    "probe_trials": 2341,
+    "reid_acc_top1": 0.7766,
+    "reid_acc_top3": 0.9616,
+    "chance_top1": 0.1111,
+    "lift_over_chance": 6.99
+  }
+}

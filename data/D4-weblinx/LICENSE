@@ -1,0 +1,37 @@
+D4 corpus — license fence
+==========================
+
+The files in this directory (USER*.data, cohort_selection.txt) are
+derived from the McGill-NLP/WebLINX dataset (Lù, Kasner, Reddy 2024):
+
+  https://huggingface.co/datasets/McGill-NLP/WebLINX
+  arXiv:2402.05930
+
+WebLINX is distributed under Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+
+By the ShareAlike clause of CC BY-NC-SA 4.0, any derivative of the
+WebLINX dataset must be distributed under the same license. Therefore
+the USER*.data files and cohort_selection.txt in this directory are
+distributed under CC BY-NC-SA 4.0, not the MIT license that covers the
+rest of cdt-prediction-bench.
+
+Full license text:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Required attribution (per CC BY 4.0 clause inherited):
+  Lù, Xing Han; Kasner, Zdeněk; Reddy, Siva (2024).
+  WebLINX: Real-World Website Navigation with Multi-Turn Dialogue.
+  https://huggingface.co/datasets/McGill-NLP/WebLINX
+
+Use restrictions (per NC clause):
+  Commercial use of these derived files is NOT permitted under
+  CC BY-NC-SA 4.0. For commercial licensing of WebLINX, contact the
+  original dataset authors at McGill-NLP.
+
+Reproducibility / re-derivation:
+  The derivation procedure is in scripts/explore_d4_weblinx.py and
+  scripts/build_d4_weblinx.py (both under MIT — license fence applies
+  to the OUTPUT files, not the builder code). Cohort selection rule
+  is top-12 demonstrations by event count; see cohort_selection.txt
+  for the deterministic mapping USER<k> -> demo_id -> event_count.

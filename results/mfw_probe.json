@@ -1,0 +1,22 @@
+{
+  "D1": {
+    "folds": 9,
+    "pst": 0.2222,
+    "mfw_gated": 0.1777,
+    "delta": -0.0445,
+    "gated_better_folds": "0/9",
+    "tie_folds": 0,
+    "forced_steps": 135,
+    "forced_acc": 0.1155
+  },
+  "D3": {
+    "folds": 12,
+    "pst": 0.359,
+    "mfw_gated": 0.2922,
+    "delta": -0.0668,
+    "gated_better_folds": "0/12",
+    "tie_folds": 1,
+    "forced_steps": 44,
+    "forced_acc": 0.085
+  }
+}

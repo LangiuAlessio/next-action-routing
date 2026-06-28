@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "users": 12,
+    "probe_steps": 9579,
+    "gap_seconds": {
+      "median": 14,
+      "p10": 0,
+      "p90": 161
+    },
+    "MAE_log10gap_(lower_better)": {
+      "marginal": 0.488,
+      "by_action": 0.3908,
+      "by_bigram": 0.398
+    },
+    "spearman_pred_vs_actual": {
+      "marginal": 0.0,
+      "by_action": 0.3942,
+      "by_bigram": 0.4021
+    },
+    "per_user_robustness": {
+      "users_bigram_beats_marginal": "10/12",
+      "users_spearman_gt_0.1": "11/12"
+    },
+    "MAE_reduction_bigram_vs_marginal_pct": 18.4
+  }
+}

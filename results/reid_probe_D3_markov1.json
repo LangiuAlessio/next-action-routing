@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "dataset": "D3",
+    "model": "markov1",
+    "users": 12,
+    "probe_trials": 48,
+    "reid_acc_top1": 0.5,
+    "reid_acc_top3": 0.8125,
+    "chance_top1": 0.0833,
+    "lift_over_chance": 6.0
+  }
+}

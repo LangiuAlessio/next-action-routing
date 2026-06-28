@@ -1,0 +1,41 @@
+{
+  "total_rows": 26544,
+  "total_demos": 1069,
+  "vocab_size": 7,
+  "vocab": {
+    "click": 14976,
+    "say": 6747,
+    "text_input": 2302,
+    "scroll": 1622,
+    "load": 417,
+    "submit": 396,
+    "change": 84
+  },
+  "demos_ge_50": 57,
+  "demos_ge_30": 294,
+  "demos_ge_20": 647,
+  "demos_ge_10": 1005,
+  "top20_demos": {
+    "tkmwdnb": 123,
+    "qgzyiog": 119,
+    "zsmwsdh": 109,
+    "xoucolk": 94,
+    "frvoxei": 93,
+    "hinjqlr": 78,
+    "crfcwea": 76,
+    "mrysrpr": 76,
+    "ggvoxqi": 73,
+    "kkwrkrh": 72,
+    "tgdivll": 72,
+    "guslwbh": 69,
+    "tphsltq": 68,
+    "pxzhjxl": 66,
+    "flipjxx": 65,
+    "edgxitq": 63,
+    "pcutjni": 62,
+    "xpkekhd": 62,
+    "ffljizl": 62,
+    "rzpfuam": 61
+  },
+  "verdict": "PASS"
+}

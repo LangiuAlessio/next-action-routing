@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the companion paper."
+title: "cdt-prediction-bench: reproducibility bundle for Online Routing for Next-Action Prediction"
+type: software
+authors:
+  - family-names: Langiu
+    given-names: Alessio
+    affiliation: "CNR-ISMAR, National Research Council of Italy"
+  - family-names: Pilato
+    given-names: Giovanni
+    affiliation: "CNR-ICAR, National Research Council of Italy"
+license: MIT
+keywords:
+  - next-action prediction
+  - online learning
+  - prediction with expert advice
+  - Context-Tree Weighting
+  - reproducible benchmark
+preferred-citation:
+  type: article
+  title: "Online Routing for Next-Action Prediction"
+  authors:
+    - family-names: Langiu
+      given-names: Alessio
+    - family-names: Pilato
+      given-names: Giovanni
+  year: 2026
+  notes: "Under submission to Data Mining and Knowledge Discovery (DMKD). Zenodo DOI minted at submission."

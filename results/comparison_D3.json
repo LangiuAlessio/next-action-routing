@@ -1,0 +1,24 @@
+{
+  "comparison": [
+    {
+      "model": "CTW",
+      "dataset": "D3",
+      "acc_at_1": 0.3542,
+      "acc_at_5": 0.6659,
+      "iota": 0.8703,
+      "latency_mean_ms": 0.1202,
+      "bleu_action": 0.3887,
+      "intent_switch_latency": 8.6528
+    },
+    {
+      "model": "CTW_FAITHFUL",
+      "dataset": "D3",
+      "acc_at_1": 0.321,
+      "acc_at_5": 0.6228,
+      "iota": 0.8703,
+      "latency_mean_ms": 0.2835,
+      "bleu_action": 0.3261,
+      "intent_switch_latency": 8.6048
+    }
+  ]
+}

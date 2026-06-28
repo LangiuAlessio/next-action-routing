@@ -1,0 +1,24 @@
+{
+  "D3": {
+    "folds": 12,
+    "ctw_static": 0.3513,
+    "best_fixed_expert": [
+      "pst",
+      0.3611
+    ],
+    "any_oracle": 0.5223,
+    "per_user_best_oracle": 0.3826,
+    "router_soft_best": {
+      "cfg": "g|eta0.1|a0.05",
+      "acc": 0.3876,
+      "delta_vs_ctw": 0.0363,
+      "wins_vs_ctw": "11/12"
+    },
+    "router_hard_best": {
+      "cfg": "c|eta1.0|a0.05",
+      "acc": 0.361,
+      "delta_vs_ctw": 0.0097,
+      "wins_vs_ctw": "7/12"
+    }
+  }
+}

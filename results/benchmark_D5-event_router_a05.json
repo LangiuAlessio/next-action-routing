@@ -1,0 +1,24 @@
+{
+  "stream": "event",
+  "n_sessions": 98,
+  "eta": 0.5,
+  "alpha": 0.05,
+  "models": [
+    {
+      "model": "router-soft",
+      "n_steps": 828,
+      "acc_at_1": 0.471,
+      "acc_at_5": 0.9795,
+      "nll_bits": 2.1019,
+      "latency_ms": 0.02722
+    },
+    {
+      "model": "router-hard",
+      "n_steps": 828,
+      "acc_at_1": 0.4529,
+      "acc_at_5": 0.9384,
+      "nll_bits": 2.3427,
+      "latency_ms": 0.02313
+    }
+  ]
+}

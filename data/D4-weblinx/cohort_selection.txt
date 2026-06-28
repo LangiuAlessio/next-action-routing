@@ -1,0 +1,14 @@
+# D4 WebLINX cohort — top-12 demos by event count (train+val combined)
+# Format: USER<k>  demo_id  event_count
+USER0	tkmwdnb	123
+USER1	qgzyiog	119
+USER2	zsmwsdh	109
+USER3	xoucolk	94
+USER4	frvoxei	93
+USER5	hinjqlr	78
+USER6	crfcwea	76
+USER7	mrysrpr	76
+USER8	ggvoxqi	73
+USER9	kkwrkrh	72
+USER10	tgdivll	72
+USER11	guslwbh	69

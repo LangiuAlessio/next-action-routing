@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "dataset": "D4",
+    "model": "markov2",
+    "users": 12,
+    "probe_trials": 0,
+    "reid_acc_top1": 0.0,
+    "reid_acc_top3": 0.0,
+    "chance_top1": 0.0833,
+    "lift_over_chance": null
+  }
+}

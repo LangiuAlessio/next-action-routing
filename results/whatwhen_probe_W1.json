@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "corpus": "W1",
+    "users": 24,
+    "acc1": {
+      "base": 0.3538,
+      "aug_timing": 0.3588,
+      "delta": 0.005,
+      "users_improved": "10/24",
+      "sign_test_p": 0.5413
+    },
+    "nll_bits": {
+      "base": 4.2839,
+      "aug_timing": 4.6075,
+      "delta_lower_better": 0.3236,
+      "users_improved": "2/24"
+    }
+  }
+}

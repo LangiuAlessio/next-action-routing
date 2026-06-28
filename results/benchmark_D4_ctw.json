@@ -1,0 +1,136 @@
+{
+  "dataset": "D4",
+  "model": "CTW",
+  "depth": 6,
+  "n_users": 12,
+  "aggregate": {
+    "acc_at_1": 0.5598,
+    "acc_at_5": 0.9955,
+    "iota": 0.958,
+    "latency_mean_ms": 0.0088,
+    "bleu_action": 0.9305,
+    "intent_switch_latency": 4.2212
+  },
+  "per_user": [
+    {
+      "user": "USER0",
+      "train_ms": 28.77,
+      "acc_at_1": 0.5738,
+      "acc_at_5": 1.0,
+      "iota": 0.9713,
+      "latency_mean_ms": 0.0089,
+      "bleu_action": 1.0,
+      "intent_switch_latency": 4.27
+    },
+    {
+      "user": "USER1",
+      "train_ms": 28.06,
+      "acc_at_1": 0.4407,
+      "acc_at_5": 1.0,
+      "iota": 0.9703,
+      "latency_mean_ms": 0.0088,
+      "bleu_action": 0.9847,
+      "intent_switch_latency": 3.81
+    },
+    {
+      "user": "USER10",
+      "train_ms": 29.56,
+      "acc_at_1": 0.6056,
+      "acc_at_5": 1.0,
+      "iota": 0.9507,
+      "latency_mean_ms": 0.0091,
+      "bleu_action": 0.9811,
+      "intent_switch_latency": 3.565
+    },
+    {
+      "user": "USER11",
+      "train_ms": 27.64,
+      "acc_at_1": 0.4265,
+      "acc_at_5": 1.0,
+      "iota": 0.9485,
+      "latency_mean_ms": 0.0089,
+      "bleu_action": 0.6745,
+      "intent_switch_latency": 5.875
+    },
+    {
+      "user": "USER2",
+      "train_ms": 27.93,
+      "acc_at_1": 0.6204,
+      "acc_at_5": 1.0,
+      "iota": 0.9676,
+      "latency_mean_ms": 0.009,
+      "bleu_action": 0.9976,
+      "intent_switch_latency": 2.517
+    },
+    {
+      "user": "USER3",
+      "train_ms": 28.45,
+      "acc_at_1": 0.6022,
+      "acc_at_5": 1.0,
+      "iota": 0.9624,
+      "latency_mean_ms": 0.0087,
+      "bleu_action": 1.0,
+      "intent_switch_latency": 2.714
+    },
+    {
+      "user": "USER4",
+      "train_ms": 28.42,
+      "acc_at_1": 0.7391,
+      "acc_at_5": 1.0,
+      "iota": 0.962,
+      "latency_mean_ms": 0.0087,
+      "bleu_action": 1.0,
+      "intent_switch_latency": 2.385
+    },
+    {
+      "user": "USER5",
+      "train_ms": 26.72,
+      "acc_at_1": 0.7532,
+      "acc_at_5": 0.974,
+      "iota": 0.9545,
+      "latency_mean_ms": 0.0078,
+      "bleu_action": 0.9597,
+      "intent_switch_latency": 3.258
+    },
+    {
+      "user": "USER6",
+      "train_ms": 28.61,
+      "acc_at_1": 0.6133,
+      "acc_at_5": 1.0,
+      "iota": 0.9533,
+      "latency_mean_ms": 0.009,
+      "bleu_action": 0.9717,
+      "intent_switch_latency": 3.292
+    },
+    {
+      "user": "USER7",
+      "train_ms": 28.9,
+      "acc_at_1": 0.5867,
+      "acc_at_5": 1.0,
+      "iota": 0.9533,
+      "latency_mean_ms": 0.0089,
+      "bleu_action": 0.9965,
+      "intent_switch_latency": 5.045
+    },
+    {
+      "user": "USER8",
+      "train_ms": 27.91,
+      "acc_at_1": 0.3472,
+      "acc_at_5": 0.9861,
+      "iota": 0.9514,
+      "latency_mean_ms": 0.0088,
+      "bleu_action": 0.8621,
+      "intent_switch_latency": 8.868
+    },
+    {
+      "user": "USER9",
+      "train_ms": 28.72,
+      "acc_at_1": 0.4085,
+      "acc_at_5": 0.9859,
+      "iota": 0.9507,
+      "latency_mean_ms": 0.0089,
+      "bleu_action": 0.7378,
+      "intent_switch_latency": 5.056
+    }
+  ]
+}

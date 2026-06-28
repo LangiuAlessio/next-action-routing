@@ -1,0 +1,106 @@
+{
+  "dataset": "D1",
+  "model": "LZ",
+  "depth": 6,
+  "n_users": 9,
+  "aggregate": {
+    "acc_at_1": 0.1699,
+    "acc_at_5": 0.3276,
+    "iota": 0.5969,
+    "latency_mean_ms": 0.3892,
+    "bleu_action": 0.0797,
+    "intent_switch_latency": 9.5582
+  },
+  "per_user": [
+    {
+      "user": "USER0",
+      "train_ms": 49.82,
+      "acc_at_1": 0.1248,
+      "acc_at_5": 0.2854,
+      "iota": 0.6326,
+      "latency_mean_ms": 0.3996,
+      "bleu_action": 0.0311,
+      "intent_switch_latency": 9.854
+    },
+    {
+      "user": "USER1",
+      "train_ms": 47.52,
+      "acc_at_1": 0.1944,
+      "acc_at_5": 0.3861,
+      "iota": 0.6138,
+      "latency_mean_ms": 0.3868,
+      "bleu_action": 0.1405,
+      "intent_switch_latency": 9.642
+    },
+    {
+      "user": "USER2",
+      "train_ms": 49.91,
+      "acc_at_1": 0.1994,
+      "acc_at_5": 0.329,
+      "iota": 0.6225,
+      "latency_mean_ms": 0.4771,
+      "bleu_action": 0.0821,
+      "intent_switch_latency": 9.506
+    },
+    {
+      "user": "USER3",
+      "train_ms": 52.92,
+      "acc_at_1": 0.1525,
+      "acc_at_5": 0.3238,
+      "iota": 0.5613,
+      "latency_mean_ms": 0.3817,
+      "bleu_action": 0.0483,
+      "intent_switch_latency": 9.8
+    },
+    {
+      "user": "USER4",
+      "train_ms": 44.24,
+      "acc_at_1": 0.1849,
+      "acc_at_5": 0.3405,
+      "iota": 0.5805,
+      "latency_mean_ms": 0.3713,
+      "bleu_action": 0.1125,
+      "intent_switch_latency": 9.437
+    },
+    {
+      "user": "USER5",
+      "train_ms": 42.97,
+      "acc_at_1": 0.2254,
+      "acc_at_5": 0.3724,
+      "iota": 0.6019,
+      "latency_mean_ms": 0.3752,
+      "bleu_action": 0.1254,
+      "intent_switch_latency": 8.849
+    },
+    {
+      "user": "USER6",
+      "train_ms": 40.6,
+      "acc_at_1": 0.1919,
+      "acc_at_5": 0.3801,
+      "iota": 0.6524,
+      "latency_mean_ms": 0.3622,
+      "bleu_action": 0.0892,
+      "intent_switch_latency": 9.602
+    },
+    {
+      "user": "USER7",
+      "train_ms": 47.33,
+      "acc_at_1": 0.1128,
+      "acc_at_5": 0.2346,
+      "iota": 0.5651,
+      "latency_mean_ms": 0.3864,
+      "bleu_action": 0.0174,
+      "intent_switch_latency": 9.906
+    },
+    {
+      "user": "USER8",
+      "train_ms": 38.46,
+      "acc_at_1": 0.143,
+      "acc_at_5": 0.2963,
+      "iota": 0.5421,
+      "latency_mean_ms": 0.3628,
+      "bleu_action": 0.0708,
+      "intent_switch_latency": 9.428
+    }
+  ]
+}

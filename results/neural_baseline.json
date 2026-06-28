@@ -1,0 +1,193 @@
+{
+  "D3": {
+    "folds": 12,
+    "best_soft_cfg": "g|eta0.1|a0.05",
+    "baselines": {
+      "pst": {
+        "acc1": 0.3632,
+        "acc5": 0.5426,
+        "mrr": 0.4516,
+        "nll": 6.0203
+      },
+      "ppm": {
+        "acc1": 0.353,
+        "acc5": 0.6684,
+        "mrr": 0.4925,
+        "nll": 4.9697
+      },
+      "ctw_leaf": {
+        "acc1": 0.3533,
+        "acc5": 0.6659,
+        "mrr": 0.4939,
+        "nll": 4.385
+      },
+      "lz": {
+        "acc1": 0.2055,
+        "acc5": 0.3304,
+        "mrr": 0.2773,
+        "nll": 6.4053
+      },
+      "m1": {
+        "acc1": 0.3643,
+        "acc5": 0.6657,
+        "mrr": 0.4933,
+        "nll": 4.6996
+      },
+      "m2": {
+        "acc1": 0.3408,
+        "acc5": 0.5615,
+        "mrr": 0.4425,
+        "nll": 5.3446
+      },
+      "m3": {
+        "acc1": 0.2969,
+        "acc5": 0.42,
+        "mrr": 0.3665,
+        "nll": 5.9024
+      },
+      "ctw_faithful_binary": {
+        "acc1": 0.364,
+        "acc5": 0.6552,
+        "mrr": 0.4925,
+        "nll": 4.5409
+      },
+      "neural": {
+        "acc1": 0.2693,
+        "acc5": 0.5557,
+        "mrr": 0.4022,
+        "nll": 7.4683
+      }
+    },
+    "router_best_acc1": 0.3875,
+    "paired": {
+      "router_vs_neural_acc1": {
+        "delta": 0.1181,
+        "ci95": [
+          0.0608,
+          0.1759
+        ],
+        "wilcoxon_p": 0.0096,
+        "wins": "10/12"
+      },
+      "neural_vs_ctw_faithful_binary_acc1": {
+        "delta": -0.0947,
+        "ci95": [
+          -0.1577,
+          -0.0307
+        ],
+        "wilcoxon_p": 0.0342,
+        "wins": "4/12"
+      },
+      "neural_vs_ctw_leaf_acc1": {
+        "delta": -0.084,
+        "ci95": [
+          -0.1454,
+          -0.0205
+        ],
+        "wilcoxon_p": 0.0499,
+        "wins": "4/12"
+      },
+      "neural_vs_best_fixed_acc1": {
+        "expert": "m1",
+        "delta": -0.0949,
+        "ci95": [
+          -0.1617,
+          -0.0245
+        ],
+        "wilcoxon_p": 0.0208,
+        "wins": "2/12"
+      }
+    },
+    "neural_per_fold_acc1": [
+      0.3559,
+      0.292,
+      0.3317,
+      0.2746,
+      0.3919,
+      0.1008,
+      0.1909,
+      0.2522,
+      0.2795,
+      0.2244,
+      0.3092,
+      0.2289
+    ],
+    "router_per_fold_acc1": [
+      0.5551,
+      0.3058,
+      0.3416,
+      0.2642,
+      0.5971,
+      0.3105,
+      0.4979,
+      0.4071,
+      0.4629,
+      0.278,
+      0.4155,
+      0.2139
+    ]
+  },
+  "D1": {
+    "folds": 9,
+    "best_soft_cfg": "c|eta0.1|a0.05",
+    "neural_acc1": 0.2557,
+    "neural_acc5": 0.5205,
+    "neural_mrr": 0.3778,
+    "neural_nll": 7.883,
+    "router_best_acc1": 0.2416,
+    "ctw_leaf_acc1": 0.2105,
+    "ctw_faithful_binary_acc1": 0.1925,
+    "paired": {
+      "router_vs_neural_acc1": {
+        "delta": -0.0141,
+        "ci95": [
+          -0.0327,
+          0.0046
+        ],
+        "wilcoxon_p": 0.1731,
+        "wins": "3/9"
+      },
+      "neural_vs_ctw_leaf_acc1": {
+        "delta": 0.0453,
+        "ci95": [
+          0.025,
+          0.0645
+        ],
+        "wilcoxon_p": 0.0109,
+        "wins": "8/9"
+      },
+      "neural_vs_ctw_faithful_binary_acc1": {
+        "delta": 0.0632,
+        "ci95": [
+          0.0439,
+          0.0834
+        ],
+        "wilcoxon_p": 0.0077,
+        "wins": "9/9"
+      }
+    },
+    "note_best_fixed": "pst",
+    "neural_per_fold_acc1": [
+      0.233,
+      0.2485,
+      0.2711,
+      0.2488,
+      0.2816,
+      0.31,
+      0.2995,
+      0.1769,
+      0.2323
+    ],
+    "router_per_fold_acc1": [
+      0.1824,
+      0.2494,
+      0.3088,
+      0.259,
+      0.2711,
+      0.3032,
+      0.2375,
+      0.1646,
+      0.1983
+    ]
+  }
+}

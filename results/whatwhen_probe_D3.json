@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "corpus": "D3",
+    "users": 24,
+    "acc1": {
+      "base": 0.4759,
+      "aug_timing": 0.4698,
+      "delta": -0.0061,
+      "users_improved": "3/24",
+      "sign_test_p": 0.3438
+    },
+    "nll_bits": {
+      "base": 2.6897,
+      "aug_timing": 2.7357,
+      "delta_lower_better": 0.046,
+      "users_improved": "7/24"
+    }
+  }
+}

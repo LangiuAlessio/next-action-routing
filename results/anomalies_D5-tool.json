@@ -1,0 +1,771 @@
+{
+  "stream": "tool",
+  "n_sessions": 3934,
+  "threshold_bits": 12.0,
+  "n_anomalies": 64,
+  "anomalies": [
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 13,
+      "context": [
+        "Bash",
+        "Read",
+        "Bash",
+        "Bash"
+      ],
+      "action": "Skill",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 135,
+      "context": [
+        "Write",
+        "Bash",
+        "Skill",
+        "Write"
+      ],
+      "action": "Workflow",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 211,
+      "context": [
+        "Read",
+        "Edit",
+        "Bash",
+        "Bash"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__new_page",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 212,
+      "context": [
+        "Edit",
+        "Bash",
+        "Bash",
+        "ToolSearch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 216,
+      "context": [
+        "mcp__plugin_claude-code-settings_chrome__new_page",
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+        "Edit"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__navigate_page",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2422417b-e75d-4e08-b5c8-8b4b678c349f",
+      "pos": 218,
+      "context": [
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+        "Edit",
+        "Bash",
+        "mcp__plugin_claude-code-settings_chrome__navigate_page"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__list_pages",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-a9c377c322bc94698",
+      "pos": 64,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "Read"
+      ],
+      "action": "Monitor",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "aaaa0dd4-26ad-449f-aa05-a6211ed94327",
+      "pos": 27,
+      "context": [
+        "Bash",
+        "Bash",
+        "Workflow",
+        "Bash"
+      ],
+      "action": "TaskOutput",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "aaaa0dd4-26ad-449f-aa05-a6211ed94327",
+      "pos": 40,
+      "context": [
+        "Bash",
+        "TaskOutput",
+        "Bash",
+        "Bash"
+      ],
+      "action": "TaskStop",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-ab9415d9453a735d7",
+      "pos": 7,
+      "context": [
+        "Read",
+        "Write",
+        "Write",
+        "Write"
+      ],
+      "action": "StructuredOutput",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "9b2dd3d8-4cad-4d17-a79f-261665d371f3",
+      "pos": 43,
+      "context": [
+        "ToolSearch",
+        "TaskOutput",
+        "TaskOutput",
+        "Read"
+      ],
+      "action": "TaskList",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "9b2dd3d8-4cad-4d17-a79f-261665d371f3",
+      "pos": 506,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "Bash"
+      ],
+      "action": "ExitPlanMode",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "9b2dd3d8-4cad-4d17-a79f-261665d371f3",
+      "pos": 990,
+      "context": [
+        "Read",
+        "Bash",
+        "Bash",
+        "Edit"
+      ],
+      "action": "...",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-ac408484633c78546",
+      "pos": 32,
+      "context": [
+        "Bash",
+        "Read",
+        "Bash",
+        "Bash"
+      ],
+      "action": "bash",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "cb53ddfa-a312-46a4-93ca-916d74de14fa",
+      "pos": 420,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "ToolSearch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__list_console_messages",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "cb53ddfa-a312-46a4-93ca-916d74de14fa",
+      "pos": 421,
+      "context": [
+        "Bash",
+        "Bash",
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__navigate_page"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__take_snapshot",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "cb53ddfa-a312-46a4-93ca-916d74de14fa",
+      "pos": 439,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "mcp__plugin_claude-code-settings_chrome__navigate_page"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__handle_dialog",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-a94099526b5daf83b",
+      "pos": 2,
+      "context": [
+        "Read"
+      ],
+      "action": "Grep",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2a8fc988-62af-4ac5-81e1-35f0708d174b",
+      "pos": 266,
+      "context": [
+        "Bash",
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__new_page",
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__fill_form",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2a8fc988-62af-4ac5-81e1-35f0708d174b",
+      "pos": 267,
+      "context": [
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__new_page",
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+        "mcp__plugin_claude-code-settings_chrome__take_snapshot"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__click",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "5a395138-6abf-4300-ab4a-8cd283f98ba8",
+      "pos": 162,
+      "context": [
+        "Bash",
+        "AskUserQuestion",
+        "Bash",
+        "ToolSearch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "5a395138-6abf-4300-ab4a-8cd283f98ba8",
+      "pos": 187,
+      "context": [
+        "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+        "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+        "Read",
+        "ToolSearch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__upload_file",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "d7b16577-e8d7-41e2-8fd4-e536d1ebfcd2",
+      "pos": 262,
+      "context": [
+        "Bash",
+        "TaskUpdate",
+        "TaskUpdate",
+        "Bash"
+      ],
+      "action": "mcp__crawler__puppeteer_navigate",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "d7b16577-e8d7-41e2-8fd4-e536d1ebfcd2",
+      "pos": 263,
+      "context": [
+        "TaskUpdate",
+        "TaskUpdate",
+        "Bash",
+        "ToolSearch"
+      ],
+      "action": "mcp__crawler__puppeteer_screenshot",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-a5ea763dde7d176bb",
+      "pos": 29,
+      "context": [
+        "WebFetch",
+        "WebSearch",
+        "ToolSearch",
+        "WebFetch"
+      ],
+      "action": "mcp__crawler__puppeteer_evaluate",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "2679fc55-99cc-40ca-8531-7cda051415f3",
+      "pos": 718,
+      "context": [
+        "Bash",
+        "Read",
+        "Read",
+        "Workflow"
+      ],
+      "action": "TaskGet",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "c81d9de4-71f4-45b3-9f8c-e533e56b95cf",
+      "pos": 163,
+      "context": [
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__new_page",
+        "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+        "mcp__plugin_claude-code-settings_chrome__evaluate_script"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__close_page",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "e4ea1c43-eb80-4635-a44d-45996f0f97c2",
+      "pos": 196,
+      "context": [
+        "Bash",
+        "Write",
+        "Write",
+        "Bash"
+      ],
+      "action": "mcp__claude_ai_Gmail__authenticate",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "agent-a03be8c2554300604",
+      "pos": 8,
+      "context": [
+        "Agent",
+        "Agent",
+        "Agent",
+        "Agent"
+      ],
+      "action": "SendMessage",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "d20cc9fb-66fd-4c97-8470-720a1843e281",
+      "pos": 3,
+      "context": [
+        "Skill",
+        "Bash"
+      ],
+      "action": "ScheduleWakeup",
+      "nll_bits": 39.86
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 69,
+      "context": [
+        "Skill",
+        "Edit",
+        "Edit",
+        "Bash"
+      ],
+      "action": "TaskCreate",
+      "nll_bits": 22.58
+    },
+    {
+      "session": "155822a9-0a07-4596-a557-2cf2316b834e",
+      "pos": 149,
+      "context": [
+        "Bash",
+        "Edit",
+        "Bash",
+        "Bash"
+      ],
+      "action": "Skill",
+      "nll_bits": 20.93
+    },
+    {
+      "session": "agent-a9c377c322bc94698",
+      "pos": 85,
+      "context": [
+        "Edit",
+        "Read",
+        "Edit",
+        "Bash"
+      ],
+      "action": "Monitor",
+      "nll_bits": 18.07
+    },
+    {
+      "session": "751a577e-3eb6-4059-b99d-6c08c6b993e8",
+      "pos": 45,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "Bash"
+      ],
+      "action": "ToolSearch",
+      "nll_bits": 17.0
+    },
+    {
+      "session": "155822a9-0a07-4596-a557-2cf2316b834e",
+      "pos": 52,
+      "context": [
+        "Write",
+        "Bash",
+        "Bash",
+        "Edit"
+      ],
+      "action": "TaskUpdate",
+      "nll_bits": 16.52
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 103,
+      "context": [
+        "Edit",
+        "Bash",
+        "Bash",
+        "Read"
+      ],
+      "action": "TaskUpdate",
+      "nll_bits": 16.35
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 70,
+      "context": [
+        "Edit",
+        "Edit",
+        "Bash",
+        "Write"
+      ],
+      "action": "TaskCreate",
+      "nll_bits": 15.99
+    },
+    {
+      "session": "155822a9-0a07-4596-a557-2cf2316b834e",
+      "pos": 150,
+      "context": [
+        "Edit",
+        "Bash",
+        "Bash",
+        "AskUserQuestion"
+      ],
+      "action": "TaskCreate",
+      "nll_bits": 15.79
+    },
+    {
+      "session": "agent-a6751b0e4474a1845",
+      "pos": 20,
+      "context": [
+        "WebFetch",
+        "WebSearch",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "action": "ToolSearch",
+      "nll_bits": 15.25
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 119,
+      "context": [
+        "Edit",
+        "Bash",
+        "Write",
+        "Bash"
+      ],
+      "action": "TaskCreate",
+      "nll_bits": 14.79
+    },
+    {
+      "session": "agent-a4938d268e69e5786",
+      "pos": 16,
+      "context": [
+        "WebFetch",
+        "WebSearch",
+        "WebFetch",
+        "WebSearch"
+      ],
+      "action": "Write",
+      "nll_bits": 14.02
+    },
+    {
+      "session": "15f8a959-a7ad-4ff6-8595-8ed845cafc06",
+      "pos": 81,
+      "context": [
+        "Bash",
+        "AskUserQuestion",
+        "Bash",
+        "Bash"
+      ],
+      "action": "Workflow",
+      "nll_bits": 13.58
+    },
+    {
+      "session": "cd409705-7774-499b-aa0c-7a8bbd855b1d",
+      "pos": 144,
+      "context": [
+        "Edit",
+        "Edit",
+        "Write",
+        "Bash"
+      ],
+      "action": "TaskList",
+      "nll_bits": 13.52
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 139,
+      "context": [
+        "Bash",
+        "Edit",
+        "Edit",
+        "Bash"
+      ],
+      "action": "TaskUpdate",
+      "nll_bits": 13.43
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 104,
+      "context": [
+        "Bash",
+        "Bash",
+        "Read",
+        "Bash"
+      ],
+      "action": "TaskUpdate",
+      "nll_bits": 13.41
+    },
+    {
+      "session": "agent-a271927a0f6fc92d6",
+      "pos": 13,
+      "context": [
+        "WebSearch",
+        "WebSearch",
+        "WebFetch",
+        "WebFetch"
+      ],
+      "action": "StructuredOutput",
+      "nll_bits": 13.3
+    },
+    {
+      "session": "agent-a7c18f9b2c527effd",
+      "pos": 62,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "Bash"
+      ],
+      "action": "TaskStop",
+      "nll_bits": 13.25
+    },
+    {
+      "session": "agent-a3c851c08d7ba9c1d",
+      "pos": 16,
+      "context": [
+        "mcp__crawler__puppeteer_navigate",
+        "mcp__crawler__puppeteer_navigate",
+        "mcp__crawler__puppeteer_evaluate",
+        "WebSearch"
+      ],
+      "action": "mcp__crawler__puppeteer_evaluate",
+      "nll_bits": 13.23
+    },
+    {
+      "session": "agent-a9275719cfa4b60e3",
+      "pos": 29,
+      "context": [
+        "WebSearch",
+        "WebFetch",
+        "WebFetch",
+        "WebFetch"
+      ],
+      "action": "StructuredOutput",
+      "nll_bits": 13.04
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 64,
+      "context": [
+        "Edit",
+        "Write",
+        "Bash",
+        "Bash"
+      ],
+      "action": "Skill",
+      "nll_bits": 12.81
+    },
+    {
+      "session": "c76732b9-6daa-4cb4-aa0f-5fab3ead21c9",
+      "pos": 32,
+      "context": [
+        "Write",
+        "Bash",
+        "TaskUpdate",
+        "TaskUpdate"
+      ],
+      "action": "TaskCreate",
+      "nll_bits": 12.69
+    },
+    {
+      "session": "155822a9-0a07-4596-a557-2cf2316b834e",
+      "pos": 134,
+      "context": [
+        "TaskUpdate",
+        "Bash",
+        "Bash",
+        "Bash"
+      ],
+      "action": "AskUserQuestion",
+      "nll_bits": 12.67
+    },
+    {
+      "session": "c81d9de4-71f4-45b3-9f8c-e533e56b95cf",
+      "pos": 160,
+      "context": [
+        "WebSearch",
+        "WebFetch",
+        "WebFetch",
+        "ToolSearch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+      "nll_bits": 12.66
+    },
+    {
+      "session": "cd409705-7774-499b-aa0c-7a8bbd855b1d",
+      "pos": 50,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "Bash"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__new_page",
+      "nll_bits": 12.64
+    },
+    {
+      "session": "010559b6-9961-4c77-910d-5d5816daac91",
+      "pos": 100,
+      "context": [
+        "Read",
+        "Edit",
+        "Bash",
+        "Workflow"
+      ],
+      "action": "TaskList",
+      "nll_bits": 12.57
+    },
+    {
+      "session": "c81d9de4-71f4-45b3-9f8c-e533e56b95cf",
+      "pos": 159,
+      "context": [
+        "WebFetch",
+        "WebSearch",
+        "WebFetch",
+        "WebFetch"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__new_page",
+      "nll_bits": 12.56
+    },
+    {
+      "session": "c81d9de4-71f4-45b3-9f8c-e533e56b95cf",
+      "pos": 161,
+      "context": [
+        "WebFetch",
+        "WebFetch",
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__new_page"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+      "nll_bits": 12.56
+    },
+    {
+      "session": "c81d9de4-71f4-45b3-9f8c-e533e56b95cf",
+      "pos": 22,
+      "context": [
+        "Edit",
+        "Bash",
+        "Write",
+        "Bash"
+      ],
+      "action": "AskUserQuestion",
+      "nll_bits": 12.52
+    },
+    {
+      "session": "agent-a5ea763dde7d176bb",
+      "pos": 28,
+      "context": [
+        "Bash",
+        "WebFetch",
+        "WebSearch",
+        "ToolSearch"
+      ],
+      "action": "mcp__crawler__puppeteer_navigate",
+      "nll_bits": 12.49
+    },
+    {
+      "session": "05f891b9-86f6-4975-ba2c-da0cd01b17c2",
+      "pos": 112,
+      "context": [
+        "Write",
+        "Bash",
+        "Read",
+        "Bash"
+      ],
+      "action": "TaskUpdate",
+      "nll_bits": 12.3
+    },
+    {
+      "session": "5a395138-6abf-4300-ab4a-8cd283f98ba8",
+      "pos": 163,
+      "context": [
+        "AskUserQuestion",
+        "Bash",
+        "ToolSearch",
+        "mcp__plugin_claude-code-settings_chrome__new_page"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__navigate_page",
+      "nll_bits": 12.11
+    },
+    {
+      "session": "agent-a9b5c6d8d8adb67b9",
+      "pos": 18,
+      "context": [
+        "WebFetch",
+        "WebFetch",
+        "WebFetch",
+        "WebSearch"
+      ],
+      "action": "StructuredOutput",
+      "nll_bits": 12.1
+    },
+    {
+      "session": "5a395138-6abf-4300-ab4a-8cd283f98ba8",
+      "pos": 166,
+      "context": [
+        "mcp__plugin_claude-code-settings_chrome__new_page",
+        "mcp__plugin_claude-code-settings_chrome__evaluate_script",
+        "mcp__plugin_claude-code-settings_chrome__navigate_page",
+        "mcp__plugin_claude-code-settings_chrome__evaluate_script"
+      ],
+      "action": "mcp__plugin_claude-code-settings_chrome__take_screenshot",
+      "nll_bits": 12.1
+    },
+    {
+      "session": "agent-a5ea763dde7d176bb",
+      "pos": 26,
+      "context": [
+        "Bash",
+        "Bash",
+        "Bash",
+        "WebFetch"
+      ],
+      "action": "ToolSearch",
+      "nll_bits": 12.08
+    }
+  ]
+}

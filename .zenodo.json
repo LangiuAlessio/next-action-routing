@@ -1,0 +1,24 @@
+{
+  "upload_type": "software",
+  "title": "cdt-prediction-bench: reproducibility bundle for \"Online Routing for Next-Action Prediction\"",
+  "creators": [
+    { "name": "Langiu, Alessio", "affiliation": "CNR-ISMAR, Institute of Marine Sciences, National Research Council of Italy" },
+    { "name": "Pilato, Giovanni", "affiliation": "CNR-ICAR, Institute for High-Performance Computing and Networking, National Research Council of Italy" }
+  ],
+  "description": "<p>Reproducibility bundle (artefact C4) for the paper <em>Online Routing for Next-Action Prediction</em> (Langiu &amp; Pilato). It contains the full benchmark used in the paper: the three corpus builders (D1 UCI Unix shell, D3 Eclipse UDC, D4 WebLINX), the seven classical pool predictors (PST, PPM, CTW leaf-KT, Lempel-Ziv, Markov-1/2/3), the three static CTW variants including the faithful binary and faithful M-ary mixtures (the confirmatory baseline), the regret-bounded Hedge/Fixed-Share router (soft and hard read-outs), the learned GRU expert and the router-8 driver that adds it to the pool, the three negative mechanism probes (drift-tracking, antidictionary hard-gating, zero-shot LLM hybrid) with their recorded decisions, the paired-statistics helper (bootstrap CI, Wilcoxon, Holm, TOST), and all random seeds. Leave-one-user-out protocol; results reproduce the paper's tables.</p><p><strong>Licensing.</strong> Code, scripts and results are MIT (see LICENSE). The derived D4 (WebLINX) corpus files inherit CC BY-NC-SA 4.0 from McGill-NLP/WebLINX (L&#249; et al. 2024); see data/D4-weblinx/LICENSE. Raw source datasets are not redistributed and are refetchable from their public sources per the SOURCE.md files.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "next-action prediction",
+    "online learning",
+    "prediction with expert advice",
+    "Hedge",
+    "Fixed-Share",
+    "variable-order Markov models",
+    "Context-Tree Weighting",
+    "sequence prediction",
+    "reproducible benchmark",
+    "deployment rule"
+  ],
+  "notes": "Companion artefact to the manuscript under submission to Data Mining and Knowledge Discovery (DMKD). Code MIT; D4 derived data CC BY-NC-SA 4.0."
+}

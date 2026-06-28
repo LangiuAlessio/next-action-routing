@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "corpus": "W3",
+    "users": 24,
+    "eta2_action_to_gap": 0.1785,
+    "eta2_bigram_to_gap": 0.1682,
+    "pinball_loss_(lower_better)": {
+      "marginal": 0.1843,
+      "by_action": 0.1773,
+      "by_bigram": 0.1754
+    },
+    "interval_width_q10_q90_(sharpness)": {
+      "marginal": 1.996,
+      "by_action": 1.6723,
+      "by_bigram": 1.6017
+    },
+    "coverage_(target=tau)": {
+      "marginal": {
+        "q10": 0.1921,
+        "q50": 0.5367,
+        "q90": 0.8945
+      },
+      "by_action": {
+        "q10": 0.2224,
+        "q50": 0.5337,
+        "q90": 0.8669
+      },
+      "by_bigram": {
+        "q10": 0.2304,
+        "q50": 0.5358,
+        "q90": 0.8594
+      }
+    },
+    "robustness": {
+      "users_bigram_sharper_than_marginal": "24/24",
+      "users_bigram_pinball_better": "24/24"
+    },
+    "pinball_reduction_bigram_vs_marginal_pct": 4.8
+  }
+}

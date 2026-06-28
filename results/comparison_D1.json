@@ -1,0 +1,34 @@
+{
+  "comparison": [
+    {
+      "model": "LZ",
+      "dataset": "D1",
+      "acc_at_1": 0.1699,
+      "acc_at_5": 0.3276,
+      "iota": 0.5969,
+      "latency_mean_ms": 0.3892,
+      "bleu_action": 0.0797,
+      "intent_switch_latency": 9.5582
+    },
+    {
+      "model": "PPM",
+      "dataset": "D1",
+      "acc_at_1": 0.2195,
+      "acc_at_5": 0.5626,
+      "iota": 0.5512,
+      "latency_mean_ms": 1.5062,
+      "bleu_action": 0.1434,
+      "intent_switch_latency": 9.0837
+    },
+    {
+      "model": "PST",
+      "dataset": "D1",
+      "acc_at_1": 0.2229,
+      "acc_at_5": 0.4426,
+      "iota": 0.5356,
+      "latency_mean_ms": 0.7456,
+      "bleu_action": 0.1461,
+      "intent_switch_latency": 9.0576
+    }
+  ]
+}

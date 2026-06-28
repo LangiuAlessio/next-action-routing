@@ -1,0 +1,558 @@
+{
+  "summary": {
+    "dataset": "D3",
+    "model": "qwen2.5:14b",
+    "hard_steps_scored": 60,
+    "hard_quantile": 0.8,
+    "acc1_on_hard": {
+      "pst": 0.3167,
+      "m1": 0.4833,
+      "uni": 0.2,
+      "llm": 0.2667,
+      "hybrid_llm_on_hard": 0.2667
+    },
+    "llm_valid_answers": 60
+  },
+  "rows": [
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "java.open.editor",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.selectall",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.edit.paste",
+      "m1": "ui.edit.paste",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.626
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.file.save",
+      "m1": "ui.edit.paste",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.638
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.655
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "java.open.editor",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.655
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.655
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.import",
+      "pst": "ui.file.import",
+      "m1": "ui.file.import",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.655
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "refactoring.commands.deleteresources",
+      "m1": "ui.file.import",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.rename",
+      "pst": "ui.edit.delete",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.file.import",
+      "m1": "ui.file.import",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.refresh",
+      "pst": "ui.edit.delete",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.undo",
+      "m1": "ui.edit.undo",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.file.import",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.rename",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.633
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.command.commitcommand",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.edit.copy",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.file.save",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.edit.delete",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.edit.delete",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.delete",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.copy",
+      "pst": "ui.edit.delete",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.paste",
+      "m1": "ui.edit.paste",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.paste",
+      "pst": "ui.edit.delete",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.637
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.edit.paste",
+      "m1": "ui.file.save",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.selectall",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.delete",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.refresh",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.633
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.file.import",
+      "m1": "ui.file.import",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.633
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.delete",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.copy",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.633
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.copy",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.file.import",
+      "m1": "ui.edit.paste",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.copy",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.copy",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.paste",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.copy",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.edit.delete",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.localjavashortcut.run",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.file.save",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.edit.delete",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.copy",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.edit.paste",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.edit.undo",
+      "entropy": 6.653
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.import",
+      "entropy": 6.669
+    },
+    {
+      "uid": "USER0",
+      "truth": "ui.localjavashortcut.run",
+      "pst": "ui.localjavashortcut.run",
+      "m1": "ui.localjavashortcut.run",
+      "uni": "ui.edit.delete",
+      "llm": "ui.file.save",
+      "entropy": 6.669
+    }
+  ]
+}
