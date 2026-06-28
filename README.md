@@ -1,6 +1,6 @@
 # Reproducibility bundle — *Online Routing for Next-Action Prediction*
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20995956.svg)](https://doi.org/10.5281/zenodo.20995956)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20995955.svg)](https://doi.org/10.5281/zenodo.20995955)
 
 
 Companion artefact (C4) to the paper **Online Routing for Next-Action
