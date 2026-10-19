@@ -17,7 +17,7 @@ Usage:
       --users 4 --max-calls 80 --hard-quantile 0.80 --window 120
 """
 from __future__ import annotations
-import sys, json, math, argparse, urllib.request
+import os, sys, json, math, argparse, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -91,7 +91,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", default="D3", choices=["D1", "D3", "D4"])
     ap.add_argument("--model", default="qwen2.5:14b")
-    ap.add_argument("--endpoint", default="http://192.168.1.72:11434")
+    ap.add_argument("--endpoint", default=os.environ.get("OLLAMA_ENDPOINT", "http://localhost:11434"))
     ap.add_argument("--users", type=int, default=4)
     ap.add_argument("--max-calls", type=int, default=80)
     ap.add_argument("--hard-quantile", type=float, default=0.80)

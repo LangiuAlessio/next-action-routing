@@ -82,7 +82,8 @@ def main(argv=None):
     ap.add_argument("--stream", choices=["event", "tool"], default="event")
     ap.add_argument("--root", default=os.path.expanduser("~/gigi"))
     ap.add_argument("--transcripts-root",
-                    default=os.path.expanduser("~/.claude/projects/-Users-alessio-gigi"))
+                    default=os.path.expanduser(os.environ.get("D5_TRANSCRIPTS_ROOT", "~/.claude/projects")),
+                    help="Claude Code project directory whose transcripts form D5 (env D5_TRANSCRIPTS_ROOT)")
     ap.add_argument("--models", nargs="+", default=["markov0", "pst", "ppm", "ctw", "lz"])
     ap.add_argument("--depth", type=int, default=6)
     ap.add_argument("--out", default="")

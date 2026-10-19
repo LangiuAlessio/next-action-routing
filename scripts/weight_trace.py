@@ -31,7 +31,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt                         # noqa: E402
 
 DEPTH = 6
-FIG_DIR = Path("/Users/alessio/gigi/ateneo/compact-trie-prediction-2026/figures")
+FIG_DIR = Path(__file__).resolve().parents[1] / "figures"
 DISPLAY = {"pst": "PST", "ppm": "PPM", "ctw_leaf": "CTW", "lz": "LZ",
            "m1": "M1", "m2": "M2", "m3": "M3"}
 # headline global cell per corpus (best soft acc@1, from route_grid_metrics)
