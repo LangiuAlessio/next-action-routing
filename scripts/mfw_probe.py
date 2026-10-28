@@ -1,8 +1,7 @@
 """Alternative-method probe: MFW/antidictionary-gated PST vs vanilla PST.
 
-Reuses the production MFW extractor from
-~/gigi/ingegneria/forbidden-factors-exp/src/mff_extract.py (Langiu-Mignosi
-line) and the bench's PST + D1/D3 loaders. Per LOUO fold:
+Reuses an external MFW extractor (mff_extract.py, not distributed with
+this bundle; set MFF_EXTRACT_PATH to its location) and the bench's PST + D1/D3 loaders. Per LOUO fold:
   - vanilla PST (depth 6, online update) -> P(a | ctx);
   - MFW-gated: forbid any candidate a s.t. a suffix of (ctx + a) is a
     minimal forbidden word over the training actions; renormalise the
@@ -12,6 +11,7 @@ line) and the bench's PST + D1/D3 loaders. Per LOUO fold:
 Zero LLM cost. Output: results/mfw_probe.json + printed summary.
 """
 import sys, json, statistics as st
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -22,7 +22,7 @@ from run_benchmark import _build_model
 # Load mff_extract by file path (do NOT add forbidden-factors-exp/src to
 # sys.path: it contains an eval.py that shadows the bench's eval package).
 import importlib.util as _ilu
-_mff_path = Path.home() / "gigi" / "ingegneria" / "forbidden-factors-exp" / "src" / "mff_extract.py"
+_mff_path = Path(os.environ["MFF_EXTRACT_PATH"])  # external, not distributed
 _spec = _ilu.spec_from_file_location("mff_extract", _mff_path)
 _mff = _ilu.module_from_spec(_spec)
 _spec.loader.exec_module(_mff)

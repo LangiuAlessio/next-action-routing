@@ -42,21 +42,6 @@ next-action LLM accuracy (Fu et al. 2025) is ~11–12% *overall*; clearing
 ~24–33% on the hardest subset is implausible. **Conditional revival is
 unlikely; treat the hybrid (M1) as not viable.**
 
-## Consequence (per plan G1-closed fallback)
+## Consequence
 
-The >65%-Q1-via-hybrid path is **off** (M1 was the threshold lever; the
-strategy's own probability model: without M1 the ceiling is ~50%).
-Do NOT start Phases 2–6 as written. Surviving realistic options:
-
-1. **Short paper now** (IUI/UMAP short or LBR) on the honest v0.10 —
-   no hybrid, minimal extra work (Phase 0 already done: stats/CI/Holm,
-   Remark demoted, reproduction skeleton).
-2. **Benchmark-resource rescope WITHOUT the hybrid** — M2 (DOI artifact)
-   + M3 (≥2 modern corpora) + M5 (fair LLM as a reference, not a hybrid
-   component) + M6 (done) → a reproducible multi-corpus next-action
-   benchmark. Editor estimate ~TKDD 40–55% / NeurIPS D&B 30–40%. Not
-   >65%, but the strongest *journal/benchmark* route that does not
-   depend on the now-dead hybrid.
-
-Decision required from Alessio/Giovanni. Phase 0 work is committed and
-useful for either option.
+The hybrid (M1) is not pursued further.
